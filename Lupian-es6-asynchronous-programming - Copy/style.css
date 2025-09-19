@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: #f6f8fb;
+  margin: 0;
+  padding: 20px;
+  color: #111;
+}
+body:hover {
+  background: #eef2ff;
+  transition: background 0.3s ease-in-out;
+}
+
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+}
+
+h1 {
+  margin-top: 0;
+}
+section#output > h2 {
+  margin-bottom: 6px;
+}
+
+.list {
+  margin: 12px 0 20px 0;
+  padding-left: 18px;
+}
+
+.pair {
+  margin: 6px 0;
+}
+.mapping {
+  margin-top: 14px;
+  padding: 10px;
+  background: #fbfcff;
+  border: 1px solid #eef2ff;
+  border-radius: 6px;
+}
+.student-star {
+  font-weight: bold;
+  color: #c0392b;
+  margin-left: 6px;
+}
+
+.small {
+  color: #555;
+  font-size: 0.95rem;
+}
